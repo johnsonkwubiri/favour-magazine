@@ -1,0 +1,63 @@
+const projectEntries = [
+  { id: 'faves-cover', title: 'Faves', category: 'Lifestyle', img: 'flyer-faves.jpg', year: '2026', fit: 'natural', lifestyleOnly: true, location: 'Studio',
+    body: 'A studio fashion flyer highlighting a polished look through confident styling and clean composition.' },
+  { id: 'elegance-cover', title: 'Élégance', category: 'Lifestyle', img: 'flyer-elegance.jpg', year: '2026', fit: 'natural', lifestyleOnly: true, location: 'Studio',
+    body: 'A refined fashion cover featuring relaxed tailoring, considered styling and a calm neutral palette.' },
+  { id: 'tuesday-cover', title: 'Tuesday', category: 'Lifestyle', img: 'flyer-tuesday.jpg', year: '2026', fit: 'natural', lifestyleOnly: true, location: 'Studio',
+    body: 'A floral fashion cover bringing expressive styling and a rich, natural backdrop together.' },
+  { id: 'savage-flyer', title: 'Style Beyond Clothing', category: 'Lifestyle', img: 'flyer-savage.jpg', year: '2026', fit: 'natural', lifestyleOnly: true, location: 'Studio',
+    body: 'A fashion flyer pairing statement eveningwear with a bold black-and-gold visual direction.' },
+  { id: 'monogram-blazer', title: 'Monogram Velvet', category: 'Editorial', img: 'hero.jpg', year: '2026', location: 'Port Harcourt studio',
+    body: 'A deep forest-green velvet blazer, cut for structure and worn with black tailoring. The shoot was built around a single warm light and a grey concrete wall, letting the fabric carry the mood. Gold earrings and loafers keep the palette tight.' },
+  { id: 'sheer-noir', title: 'Sheer Noir', category: 'Editorial', img: 'about.jpg', year: '2025', location: 'Studio',
+    body: 'Black sheer layers and clean lines. The look leans on restraint: one texture, one silhouette, held in negative space.' },
+  { id: 'lime-study', title: 'Lime Study', category: 'Campaign', img: 'lime.jpg', year: '2025', location: 'Urban wall',
+    body: 'A saturated green dress against an urban wall. A campaign study in colour contrast and movement.' },
+  { id: 'gold-hour', title: 'Gold Hour', category: 'Jewellery', img: 'gold1.jpg', year: '2025', location: 'Studio',
+    body: 'Layered gold pieces and soft backdrop lighting. Jewellery as the focal point, with the face kept quiet.' },
+  { id: 'dramatic-green', title: 'Dramatic Green', category: 'Editorial', img: 'dramatic.jpg', year: '2025', location: 'Studio',
+    body: 'Long gloves, a green gown and hard directional light. The frame is built on contrast between shadow and fabric.' },
+  { id: 'runway-line', title: 'Runway Line', category: 'Runway', img: 'runway1.jpg', year: '2024', location: 'Runway show',
+    body: 'Walking a runway in a structured white dress. The work here is pace, posture and holding a line under bright lights.' },
+  { id: 'ruffle-bench', title: 'Ruffle Bench', category: 'Lifestyle', img: 'ruffle.jpg', year: '2024', location: 'Outdoors',
+    body: 'A green ruffled midi dress on an outdoor bench. Soft, relaxed and romantic, shot in daylight.' },
+  { id: 'monochrome-studio', title: 'Monochrome Studio', category: 'Editorial', img: 'bw1.jpg', year: '2023', location: 'White studio',
+    body: 'Black and white silhouette against a white studio. A study in shape, posture and the trouser line.' },
+  { id: 'lagos-monochrome', title: 'Lagos Monochrome', category: 'Editorial', img: 'bw2.jpg', year: '2026', location: 'Lagos studio',
+    body: 'Elegant black and white portraiture indoors in Lagos. Clean light, a strong jaw line and a quiet attitude.' },
+  { id: 'gold-layers', title: 'Gold Layers', category: 'Jewellery', img: 'gold2.jpg', year: '2025', location: 'Studio',
+    body: 'Close portrait with gold earrings and a necklace. A tight frame for the details.' },
+  { id: 'milan-evening', title: 'Evening Portrait', category: 'Campaign', img: 'milan.jpg', year: '2025', location: 'Studio',
+    body: 'A sophisticated evening portrait with an elegant hairstyle and polished styling.' },
+  { id: 'runway-walk', title: 'Runway Walk', category: 'Runway', img: 'runway2.jpg', year: '2026', location: 'Runway show',
+    body: 'A designer dress on the runway with the audience blurred behind. Momentum, colour and a clean exit.' },
+]
+
+export const projects = projectEntries
+
+export const articles = [
+  { id: 'the-green-that-holds-the-room', title: 'The green that holds the room', kicker: 'Essay', img: 'hero.jpg', date: 'October 2026', read: '5 min',
+    excerpt: 'Why deep forest green, worn with black and gold, reads as more confident than black alone.',
+    body: [
+      'Green is the colour that people underestimate on a studio set. Next to black it looks almost too quiet, and then the light hits the velvet and the room changes.',
+      'In the studio shot that anchors this site, the green is not a single colour. It shifts from bottle to moss depending on the angle of the light, and the warm lamps pull gold out of the surrounding grey.',
+      'The rule we followed was simple: one dominant dark, one warm neutral and one metallic accent. Gold earrings do the work that a second colour would do, without competing with the blazer.',
+      'For a model, this matters. A palette that is controlled lets the face and posture stay in front. The eye lands on the person first, the clothes second.'] },
+  { id: 'trousers-and-the-line', title: 'Trousers and the line', kicker: 'Styling', img: 'bw1.jpg', date: 'September 2026', read: '4 min',
+    excerpt: 'A short note on the side stripe, the sharp crease and why a studio silhouette depends on the trouser.',
+    body: [
+      'A black trouser with a single contrasting stripe can carry an entire look. The stripe draws the eye down the leg and makes the stance look deliberate.',
+      'In studio work the trouser is often the most honest piece. It cannot hide poor posture, so it becomes the test of how a model holds weight.',
+      'Keep the rest quiet. Loafers with a horsebit detail, a clean shoulder, and no competing pattern.'] },
+  { id: 'on-set-with-a-runway-walk', title: 'On set with a runway walk', kicker: 'Behind the scenes', img: 'runway1.jpg', date: 'August 2026', read: '6 min',
+    excerpt: 'Pace, breath and the discipline of holding one line under hot lights.',
+    body: [
+      'A runway walk looks effortless because the work happens before the lights come up. The pace is set in rehearsal, not on the catwalk.',
+      'Under hot lights the body wants to rush. The discipline is to slow the step, lengthen the neck and let the garment move a beat behind the body.',
+      'That same control carries into editorial. A model who can hold a line on the runway can hold a frame for a full studio session.'] },
+  { id: 'gold-as-a-quiet-accent', title: 'Gold as a quiet accent', kicker: 'Jewellery', img: 'gold1.jpg', date: 'July 2026', read: '3 min',
+    excerpt: 'Small pieces, warm metal and why gold reads best against deep green and grey.',
+    body: [
+      'Gold is forgiving. Against grey concrete it looks warm, and against deep green it turns richer.',
+      'Two or three pieces are usually enough. Earrings near the face, a single layered chain, nothing that competes with the fabric.'] },
+]
